@@ -1,1 +1,1 @@
-# rsschool-cv
+https://PlusUltraYanis.github.io/rsschool-cv/cv
