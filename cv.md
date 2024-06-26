@@ -3,13 +3,9 @@
 ## Contact:
 
 * Location: Rostov-on-Don
-
 * phone: 8-995-555-55-55
-
 * Email: example@mail.ru
-
 * Telegram: [Yan](t.me/BlackHawkRU)
-
 * [Twitter / X](https://x.com/PlusUltraBoy?t=Q4tbNEwv5tjICmxRBjiIqw&s=09)
 
 ## My bio:
@@ -20,11 +16,8 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 ## Skills:
 
 * HTML
-
 * CSS
-
 * JavaScript (very basic)
-
 * Git/Github (basic)
 
 ## Code Example:
@@ -50,5 +43,4 @@ HTML Academy: [Старт в программировании](https://up.htmlac
 ## Language: 
 
 * Russian (native)
-
 * English (A1)
