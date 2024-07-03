@@ -1,1 +1,43 @@
-/* Plug */
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #163152;
+  background-color: #fdfdff;
+}
+
+.page-header {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px 55px;
+    margin-bottom: 25px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.site-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    max-width: auto;
+}
+
+.site-navigation-item {
+    margin-right: 20px;
+}
+
+.site-navigation-item:last-child {
+    margin-right: 0;
+}
+
+.site-navigation-item a {
+    color: #163152;
+    text-transform: uppercase;
+    text-decoration: none;
+}
