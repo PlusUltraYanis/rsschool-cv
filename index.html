@@ -14,43 +14,40 @@
             <nav class="main-nav">
                 <ul class="site-navigation">
                     <li class="site-navigation-item">
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                 </li>
                     <li class="site-navigation-item">
-                        <a href="#">My bio</a>
+                        <a href="#my-bio">My bio</a>
                 </li>
                     <li class="site-navigation-item">
-                        <a href="#">Skills</a>
+                        <a href="#skills">Skills</a>
                 </li>
                     <li class="site-navigation-item">
-                    <a href="#">Code Example</a>
+                    <a href="#code-example">Code Example</a>
                 </li>
                     <li class="site-navigation-item">
-                        <a href="#">Courses</a>
+                        <a href="#courses">Courses</a>
                 </li>
                     <li class="site-navigation-item">
-                        <a href="#">Language</a>
+                        <a href="#language">Language</a>
                 </li>
                     <li class="site-navigation-item">
-                        <a href="#">My project</a>
+                        <a href="#projects">My project</a>
                 </li>
                 </ul>
             </nav>
         </header>
         <main class="main-content">
-            <section class="hero">
+            <section class="hero" id="my-bio">
                 <h1>Yan Kolesnik</h1>
                 <img src="/assets/img/photo_2022-02-03_22-04-37.jpg" width="150" height="150" alt="my-profile-pic">
                 <p>I have good interpersonal skills, am an very good team worker and very willing to learn and develop new skills. I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.</p>
             </section>
-            <section class="contact">
+            <section class="contact" id="contact">
                 <h2>Contact me:</h2>
                 <ul>
                     <li>Github:
                         <a href="">PlusUltraYanis</a>
-                    </li>
-                    <li>E-mail:
-                        <a href="">example@gmail.com</a>
                     </li>
                     <li>Telegram:
                         <a href="https://t.me/BlackHawkRU">Yan</a>
@@ -63,7 +60,7 @@
                     </li>
                 </ul>
             </section>
-            <section class="skills">
+            <section class="skills" id="skills">
                 <h2>Skills</h2>
                 <ul>
                     <li>HTML</li>
@@ -72,33 +69,35 @@
                     <li>Git/Github</li>
                 </ul>
             </section>
-            <section class="code-example">
+            <section class="code-example" id="code-example">
                 <h2>Code Example</h2>
                 <code>
+                    <pre>
                     function num(it) {
-                            if(it > 100) {
+                        if(it > 100) {
                                 return 'Больше ста'
-                            } 
-                            if (it > 10) {
-                                return 'Больше десяти'
-                            } return 'меньше десяти или десять'
+                        } 
+                        if (it > 10) {
+                            return 'Больше десяти'
+                        } return 'меньше десяти или десять'
                         }
                         let num2 = num(101)
-                        alert(num2)
+                        console.log(num2)
+                    </pre>
                 </code>
             </section>
-            <section class="courses">
+            <section class="courses" id="courses">
                 <h2>Courses</h2>
                 <p>HTML Academy: <a href="https://up.htmlacademy.ru/fe-start/1">Старт в программировании</a> in progress(90%).</p>
             </section>
-            <section class="language">
+            <section class="language" id="language">
                 <h2>Language</h2>
                 <ul>
                     <li>Russian (native)</li>
                     <li>English</li>
                 </ul>
             </section>
-            <section class="projects">
+            <section class="projects" id="projects">
                 <h2>My project</h2>
                 <a href="https://plusultrayanis.github.io/rsschool-cv/cv"></a>
             </section>
