@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 22px;
   color: #163152;
   background-color: #fdfdff;
 }
@@ -21,7 +21,7 @@ body {
 
 .site-navigation {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -38,6 +38,5 @@ body {
 
 .site-navigation-item a {
     color: #163152;
-    text-transform: uppercase;
     text-decoration: none;
 }
