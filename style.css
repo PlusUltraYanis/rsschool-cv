@@ -40,3 +40,15 @@ body {
     color: #163152;
     text-decoration: none;
 }
+
+.main-footer {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-footer a {
+    text-decoration: none;
+    
+}
