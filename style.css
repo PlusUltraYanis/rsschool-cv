@@ -42,6 +42,17 @@ body {
     text-decoration: none;
 }
 
+.main-content {
+    width: 550px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero img {
+    display: block;
+}
+
 /*FOOTER*/
 
 
