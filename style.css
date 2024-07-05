@@ -42,6 +42,29 @@ body {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 30px;
+    line-height: 15px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero img {
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+
+.contact a {
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+
 .main-content {
     width: 550px;
     padding: 20px;
@@ -53,8 +76,18 @@ body {
     display: block;
 }
 
-/*FOOTER*/
+.courses a {
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
 
+/*FOOTER*/
+.project-list-item a {
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+}
 
 .footer-list {
     display: flex;
@@ -73,5 +106,5 @@ body {
 
 .footer-list-item a {
     text-decoration: none;
-    color: #163152;
+    color: #000000;
 }
