@@ -1,0 +1,112 @@
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #163152;
+  background-color: #fdfdff;
+}
+
+.page-header {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px 55px;
+    margin-bottom: 25px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.site-navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    max-width: auto;
+}
+
+.site-navigation-item {
+    margin-right: 20px;
+}
+
+.site-navigation-item:last-child {
+    margin-right: 0;
+}
+
+.site-navigation-item a {
+    color: #163152;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 15px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero img {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+
+.contact a {
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+.main-content {
+    width: 550px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero img {
+    display: block;
+}
+
+.courses a {
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+/*FOOTER*/
+.project-list-item a {
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+}
+
+.footer-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    gap: 15px;
+    list-style: none;
+}
+
+.footer-list-item {
+    padding: 15px;
+    margin: 10px;
+}
+
+.footer-list-item a {
+    text-decoration: none;
+    color: #000000;
+}
