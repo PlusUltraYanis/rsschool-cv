@@ -30,3 +30,14 @@ function num(it) {
     }
 }
 ```
+
+## Expirience: 
+none
+
+## Courses:
+HTML Academy: [Старт в программировании](https://up.htmlacademy.ru/fe-start/1) in progress(80%).
+
+## Language: 
+
+* Russian (native)
+* English (A1)
