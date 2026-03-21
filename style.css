@@ -1,36 +1,142 @@
 body {
-    font-family: "Inter", sans-serif;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: black;
+    background-color: white;
 }
 
 .page-header {
-    width: 800px;
+    width: 600px;
     margin: 0 auto;
     padding: 20px 55px;
     margin-bottom: 25px;
 }
 
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
 .site-navigation {
     display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    margin: 0 auto;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    max-width: auto;
 }
 
 .site-navigation-item {
-    list-style: none;
+    margin-right: 20px;
+}
+
+.site-navigation-item:last-child {
+    margin-right: 0;
 }
 
 .site-navigation-item a {
-    display: block;
-    text-decoration: none;
     color: black;
+    text-decoration: none;
 }
 
-.site-navigation-item a:hover {
+.site-navigation a:hover {
     color: #ff5733;
     text-decoration: underline;
 }
 
-.hero {}
+.code-example {
+    padding-top: 10px;
+    color: white;
+
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 15px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero img {
+    border-radius: 10%;
+    margin-left: auto;
+    margin-bottom: 25px;
+}
+
+.contact li {
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+.contact a {
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+.contact a:hover {
+    color: #ff5733;
+    text-decoration: underline;
+}
+
+.main-content {
+    width: 550px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero img {
+    display: block;
+}
+
+.courses a {
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+/*FOOTER*/
+.project-list-item a {
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+}
+
+.footer-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    gap: 15px;
+    list-style: none;
+}
+
+.footer-list-item {
+    padding: 15px;
+    margin: 10px;
+}
+
+.footer-list-item a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-list-item a:hover {
+    color: #ff5733;
+    text-decoration: underline;
+}
