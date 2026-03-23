@@ -10,7 +10,6 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    </link>
     <title>Yan Kolesnik CV</title>
 </head>
 
@@ -76,15 +75,18 @@
             </ul>
             <div class="code-example">
                 <h2>Code Example:</h2>
-                <pre><code>function num(it) {
-    if (it < 10) {
-        return 'Меньше 10';
-    } else if (it < 20) {
-        return 'От 10 до 19';
-    } else {
-        return '20 или больше';
-    }
-            }</code></pre>
+                <pre><code>
+function num(it) {
+    if(it > 100) {
+        return 'Больше ста'
+    } 
+    if (it > 10) {
+        return 'Больше десяти'
+    } return 'меньше десяти или десять'
+}
+
+let num2 = num(101)
+console.log(num2)</code></pre>
             </div>
         </section>
         <section class="expirience" id="expirience">
