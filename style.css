@@ -45,12 +45,12 @@ body {
 .site-navigation a:hover {
     color: #ff5733;
     text-decoration: underline;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 .code-example {
     padding-top: 10px;
     color: white;
-
     background-color: #1e1e1e;
     border-radius: 8px;
     padding: 20px;
@@ -90,6 +90,7 @@ h1 {
 .contact a:hover {
     color: #ff5733;
     text-decoration: underline;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 .main-content {
@@ -107,7 +108,15 @@ h1 {
     list-style: none;
     text-decoration: none;
     color: #000000;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
 }
+
+.courses a:hover {
+    color: #ff5733;
+    text-decoration: underline;
+}
+
+
 
 /*FOOTER*/
 .project-list-item a {
@@ -139,4 +148,5 @@ h1 {
 .footer-list-item a:hover {
     color: #ff5733;
     text-decoration: underline;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
 }
