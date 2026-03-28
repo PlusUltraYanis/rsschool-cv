@@ -1,1 +1,1 @@
-# rsschool-cv
+https://plusultrayanis.github.io/rsschool-cv/
